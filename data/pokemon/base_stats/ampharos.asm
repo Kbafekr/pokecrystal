@@ -1,9 +1,9 @@
 	db AMPHAROS ; 181
 
-	db  90,  75,  75,  55, 115,  90
+	db  100,  160,  115,  110, 160,  105
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, FIGHTING ; type
 	db 45 ; catch rate
 	db 194 ; base exp
 	db NO_ITEM, NO_ITEM ; items

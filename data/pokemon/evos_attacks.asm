@@ -2060,9 +2060,10 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 8, RAZOR_LEAF
+	db 6, POISONPOWDER
+	db 8, VINE_WHIP
 	db 12, REFLECT
-	db 15, POISONPOWDER
+	db 15, RAZOR_LEAF
 	db 22, SYNTHESIS
 	db 29, BODY_SLAM
 	db 36, LIGHT_SCREEN
@@ -2080,8 +2081,11 @@ BayleefEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
+	db 16, DRAGONBREATH
+	db 20, SYNTHESIS
+	db 24, BODY_SLAM
+	db 28, MEGAHORN
+	db 32 SLUDGE_BOMB
 	db 39, LIGHT_SCREEN
 	db 47, SAFEGUARD
 	db 55, SOLARBEAM
@@ -2098,9 +2102,15 @@ MeganiumEvosAttacks:
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
+	db 32, GIGA_DRAIN
+	db 35, TOXIC
+	db 38, ANCIENTPOWER
 	db 41, LIGHT_SCREEN
+	db 45, PSYCHIC_M
 	db 51, SAFEGUARD
-	db 61, SOLARBEAM
+	db 56, EARTHQUAKE
+	db 59, IRON_TAIL
+	db 62, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:

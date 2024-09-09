@@ -1,9 +1,9 @@
 	db PUPITAR ; 247
 
-	db  70,  84,  70,  51,  65,  70
+	db  90,  94,  90,  71,  95,  90
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, GROUND ; type
+	db ROCK, BUG ; type
 	db 45 ; catch rate
 	db 144 ; base exp
 	db NO_ITEM, NO_ITEM ; items

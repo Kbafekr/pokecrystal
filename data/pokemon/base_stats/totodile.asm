@@ -1,6 +1,6 @@
 	db TOTODILE ; 158
 
-	db  50,  65,  64,  43,  44,  48
+	db  60,  75,  74,  53,  54,  58
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

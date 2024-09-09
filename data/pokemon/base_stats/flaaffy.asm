@@ -1,9 +1,9 @@
 	db FLAAFFY ; 180
 
-	db  70,  55,  55,  45,  80,  60
+	db  70,  85,  85,  85,  80,  80
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, FIGHTING ; type
 	db 120 ; catch rate
 	db 117 ; base exp
 	db NO_ITEM, NO_ITEM ; items
