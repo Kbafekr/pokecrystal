@@ -69,9 +69,18 @@ MartViolet:
 	db -1 ; end
 
 MartAzalea:
-	db 9 ; # items
+	db 18 ; # items
 	db CHARCOAL
 	db POKE_BALL
+	db HEAVY_BALL
+	db LEVEL_BALL
+	db LURE_BALL
+	db FAST_BALL
+	db FRIEND_BALL
+	db MOON_BALL
+	db LOVE_BALL
+	db PARK_BALL
+	db SAFARI_BALL
 	db POTION
 	db SUPER_POTION
 	db ESCAPE_ROPE
@@ -179,9 +188,11 @@ MartOlivine:
 	db -1 ; end
 
 MartEcruteak:
-	db 10 ; # items
+	db 12 ; # items
 	db POKE_BALL
 	db GREAT_BALL
+	db MASTER_BALL
+	db GS_BALL
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
@@ -240,7 +251,13 @@ MartViridian:
 	db -1 ; end
 
 MartPewter:
-	db 7 ; # items
+	db 13 ; # items
+	db FIRE_STONE
+	db WATER_STONE
+	db LEAF_STONE
+	db THUNDER_STONE
+	db SUN_STONE
+	db MOON_STONE
 	db GREAT_BALL
 	db SUPER_POTION
 	db SUPER_REPEL
@@ -382,7 +399,7 @@ MartMtMoon:
 	db -1 ; end
 
 MartIndigoPlateau:
-	db 7 ; # items
+	db 24 ; # items
 	db ULTRA_BALL
 	db MAX_REPEL
 	db HYPER_POTION
@@ -390,6 +407,23 @@ MartIndigoPlateau:
 	db FULL_RESTORE
 	db REVIVE
 	db FULL_HEAL
+	db TM_EARTHQUAKE
+	db TM_BLIZZARD
+	db TM_FIRE_BLAST
+	db TM_FLAMETHROWER
+	db TM_HYPER_BEAM
+	db TM_GIGA_DRAIN
+	db TM_SOLARBEAM
+	db TM_THUNDERBOLT
+	db TM_THUNDER
+	db TM_ICE_BEAM
+	db TM_IRON_TAIL
+	db TM_DRAGON_BREATH
+	db TM_PSYCHIC
+	db TM_SHADOW_BALL
+	db TM_SLUDGE_BOMB
+	db TM_STEEL_WING
+	db TM_FURY_CUTTER
 	db -1 ; end
 
 MartUnderground:
