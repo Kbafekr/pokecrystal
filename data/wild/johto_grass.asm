@@ -1215,20 +1215,20 @@ JohtoGrassWildMons:
 	db 25, URSARING
 	db 20, TEDDIURSA
 	db 23, GOLBAT
-	db 23, GOLBAT
+	db 20, LARVITAR
 	; day
 	db 23, GEODUDE
 	db 23, ZUBAT
 	db 25, GRAVELER
-	db 25, URSARING
+	db 25, LARVITAR
 	db 30, URSARING
-	db 23, GOLBAT
+	db 20, LARVITAR
 	db 23, GOLBAT
 	; nite
 	db 23, GEODUDE
 	db 23, ZUBAT
 	db 25, GRAVELER
-	db 20, WOBBUFFET
+	db 20, LARVITAR
 	db 25, WOBBUFFET
 	db 23, GOLBAT
 	db 23, GOLBAT
@@ -1242,7 +1242,7 @@ JohtoGrassWildMons:
 	db 3, CHIKORITA
 	db 3, EEVEE
 	db 2, RATTATA
-	db 3, HOPPIP
+	db 3, CYNDAQUIL
 	db 3, HOPPIP
 	; day
 	db 2, PIDGEY
@@ -1250,7 +1250,7 @@ JohtoGrassWildMons:
 	db 3, TOTODILE
 	db 3, BULBASAUR
 	db 2, RATTATA
-	db 3, HOPPIP
+	db 3, EEVEE
 	db 3, HOPPIP
 	; nite
 	db 2, HOOTHOOT
@@ -1258,7 +1258,7 @@ JohtoGrassWildMons:
 	db 3, CHARMANDER
 	db 3, SQUIRTLE
 	db 2, RATTATA
-	db 3, MAREEP
+	db 3, EEVEE
 	db 3, HOOTHOOT
 	end_grass_wildmons
 
@@ -1326,7 +1326,7 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, HOPPIP
 	db 7, PIDGEY
-	db 7, HOPPIP
+	db 7, MAREEP
 	db 7, HOPPIP
 	; day
 	db 4, EKANS
@@ -1334,7 +1334,7 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, HOPPIP
 	db 7, PIDGEY
-	db 7, HOPPIP
+	db 7, MAREEP
 	db 7, HOPPIP
 	; nite
 	db 4, WOOPER
@@ -1342,7 +1342,7 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, ZUBAT
 	db 7, HOOTHOOT
-	db 7, GASTLY
+	db 7, MAREEP
 	db 7, GASTLY
 	end_grass_wildmons
 
@@ -1495,7 +1495,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 13, TAUROS
 	db 13, MILTANK
-	db 13, MILTANK
+	db 13, SKARMORY
 	; day
 	db 16, RATTATA
 	db 16, RATICATE
@@ -1503,7 +1503,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 13, TAUROS
 	db 13, MILTANK
-	db 13, MILTANK
+	db 13, SKARMORY
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
@@ -1523,7 +1523,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 15, SKARMORY
 	; day
 	db 16, RATTATA
 	db 16, RATICATE
@@ -1531,7 +1531,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 15, SKARMORY
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
