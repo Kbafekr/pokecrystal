@@ -2119,8 +2119,10 @@ CyndaquilEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
-	db 12, EMBER
-	db 19, QUICK_ATTACK
+	db 7, FIRE_SPIN
+	db 10, EMBER
+	db 12, QUICK_ATTACK
+	db 15, FLAME_WHEEL
 	db 27, FLAME_WHEEL
 	db 36, SWIFT
 	db 46, FLAMETHROWER
@@ -2134,8 +2136,12 @@ QuilavaEvosAttacks:
 	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
 	db 12, EMBER
-	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
+	db 16, MAGNITUDE
+	db 20, FIRE_PUNCH
+	db 24, ROCK_THROW
+	db 28, EXTREMESPEED
+	db 32, THUNDERPUNCH
+	db 35, FLAMETHROWER
 	db 42, SWIFT
 	db 54, FLAMETHROWER
 	db 0 ; no more level-up moves
@@ -2149,9 +2155,14 @@ TyphlosionEvosAttacks:
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 45, SWIFT
-	db 60, FLAMETHROWER
+	db 36, EARTHQUAKE
+	db 40, IRON_TAIL
+	db 44, ROCK_SLIDE
+	db 48, SWIFT
+	db 52, DYNAMICPUNCH
+	db 56, SOLARBEAM
+	db 59, FIRE_BLAST
+	db 62, SACRED_FIRE
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
@@ -2159,8 +2170,11 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, RAGE
-	db 13, WATER_GUN
+	db 6, RAGE
+	db 8, BUBBLE
+	db 11, WATER_GUN
+	db 14, BITE
+	db 18, MEGA_PUNCH
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
@@ -2176,9 +2190,10 @@ CroconawEvosAttacks:
 	db 1, RAGE
 	db 7, RAGE
 	db 13, WATER_GUN
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
+	db 18, ICY_WIND
+	db 22, CRUNCH
+	db 26, CRABHAMMER
+	db 30, SLASH
 	db 45, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2193,9 +2208,15 @@ FeraligatrEvosAttacks:
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
-	db 38, SLASH
-	db 47, SCREECH
-	db 58, HYDRO_PUMP
+	db 30, ICE_PUNCH
+	db 34, THRASH
+	db 38, ROAR
+	db 42, ICE_BEAM
+	db 46, EARTHQUAKE
+	db 50, SCREECH
+	db 54, ROCK_SLIDE
+	db 58, OUTRAGE
+	db 62, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2436,7 +2457,10 @@ MareepEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 9, THUNDERSHOCK
+	db 6, THUNDERSHOCK
+	db 8, DOUBLE_KICK
+	db 12, THUNDER_WAVE
+	db 15, TRIPLE_KICK
 	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
 	db 30, LIGHT_SCREEN
@@ -2450,8 +2474,11 @@ FlaaffyEvosAttacks:
 	db 1, GROWL
 	db 1, THUNDERSHOCK
 	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
+	db 15, THUNDERPUNCH
+	db 19, ROLLING_KICK
+	db 23, BODY_SLAM
 	db 27, COTTON_SPORE
+	db 30, THUNDERBOLT
 	db 36, LIGHT_SCREEN
 	db 45, THUNDER
 	db 0 ; no more level-up moves
@@ -2465,9 +2492,15 @@ AmpharosEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 30, THUNDERPUNCH
+	db 30, CROSS_CHOP
+	db 36, FIRE_PUNCH
+	db 36, ICE_PUNCH
 	db 42, LIGHT_SCREEN
-	db 57, THUNDER
+	db 46, DOUBLE_EDGE
+	db 52, MEGAHORN
+	db 56, EARTHQUAKE
+	db 60, IRON_TAIL
+	db 62, THUNDER
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
@@ -3037,11 +3070,23 @@ SkarmoryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
-	db 13, SAND_ATTACK
+	db 7, SAND_ATTACK
+	db 11, WING_ATTACK
+	db 15, FURY_ATTACK
 	db 19, SWIFT
-	db 25, AGILITY
-	db 37, FURY_ATTACK
-	db 49, STEEL_WING
+	db 23, AGILITY
+	db 27, SLASH
+	db 30, HEAL_BELL
+	db 32, TWISTER
+	db 36, DRILL_PECK
+	db 40, HORN_DRILL
+	db 44, TOXIC
+	db 48, SPIKES
+	db 50, RETURN
+	db 52, STEEL_WING
+	db 56, MEAN_LOOK
+	db 60, MORNING_SUN
+	db 62, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -3282,10 +3327,14 @@ LarvitarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
-	db 8, SANDSTORM
-	db 15, SCREECH
+	db 6, SANDSTORM
+	db 9, ROCK_THROW
+	db 13, SCREECH
+	db 17, TAKE_DOWN
 	db 22, ROCK_SLIDE
-	db 29, THRASH
+	db 25, THRASH
+	db 28, MAGNITUDE
+	db 30, MEGAHORN
 	db 36, SCARY_FACE
 	db 43, CRUNCH
 	db 50, EARTHQUAKE
@@ -3303,9 +3352,17 @@ PupitarEvosAttacks:
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
 	db 29, THRASH
-	db 38, SCARY_FACE
+	db 30, MEGAHORN
+	db 33, SCARY_FACE
+	db 36, DRAGONBREATH
+	db 39, ANCIENTPOWER
+	db 42, BODY_SLAM
+	db 44, COUNTER
 	db 47, CRUNCH
-	db 56, EARTHQUAKE
+	db 50, THUNDERBOLT
+	db 52, ACID_ARMOR
+	db 55, EARTHQUAKE
+	db 56, SUPER_FANG
 	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -3321,8 +3378,12 @@ TyranitarEvosAttacks:
 	db 29, THRASH
 	db 38, SCARY_FACE
 	db 47, CRUNCH
-	db 61, EARTHQUAKE
-	db 75, HYPER_BEAM
+	db 55, EARTHQUAKE
+	db 58, BLIZZARD
+	db 58, FIRE_BLAST
+	db 58, THUNDER
+	db 60, CROSS_CHOP
+	db 62, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:
