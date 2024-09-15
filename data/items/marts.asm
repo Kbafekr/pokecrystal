@@ -69,7 +69,7 @@ MartViolet:
 	db -1 ; end
 
 MartAzalea:
-	db 18 ; # items
+	db 16 ; # items
 	db CHARCOAL
 	db POKE_BALL
 	db HEAVY_BALL
@@ -79,8 +79,6 @@ MartAzalea:
 	db FRIEND_BALL
 	db MOON_BALL
 	db LOVE_BALL
-	db PARK_BALL
-	db SAFARI_BALL
 	db POTION
 	db SUPER_POTION
 	db ESCAPE_ROPE
