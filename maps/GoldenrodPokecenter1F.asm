@@ -79,7 +79,16 @@ GoldenrodPokecenter1F_GSBallSceneRight:
 	end
 
 GoldenrodPokecenter1FGameboyKidScript:
-	jumptextfaceplayer GoldenrodPokecenter1FGameboyKidText
+    faceplayer
+	opentext
+	writetext GoldenrodPokecenter1FGameboyKidText
+	waitbutton
+	writetext GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText
+	waitbutton
+	verbosegiveitem GS_BALL
+	setevent EVENT_GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER
+	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
+	end
 
 GoldenrodPokecenter1FLassScript:
 	jumptextfaceplayer GoldenrodPokecenter1FLassText

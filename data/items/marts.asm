@@ -186,11 +186,10 @@ MartOlivine:
 	db -1 ; end
 
 MartEcruteak:
-	db 12 ; # items
+	db 11 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db MASTER_BALL
-	db GS_BALL
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
